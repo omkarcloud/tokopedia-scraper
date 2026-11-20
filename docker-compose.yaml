@@ -1,0 +1,11 @@
+services:
+  tokopedia-scraper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # Your own connection is all Tokopedia needs: no proxy required, so
+      # leave TOKOPEDIA_PROXY unset.
+      # - TOKOPEDIA_PROXY=http://user:pass@host:port

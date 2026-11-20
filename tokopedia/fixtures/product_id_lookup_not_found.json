@@ -1,0 +1,1 @@
+[{"errors":[{"message":"Not Found","path":["productrevGetMiniProductInfo"],"extensions":{"code":5,"developerMessage":"rpc error","moreInfo":"Product Not Found","timestamp":"2026-11-20 18:52:31.104758289 +0700 WIB m=+258720.838443818"}}],"data":{"productrevGetMiniProductInfo":null}}]
